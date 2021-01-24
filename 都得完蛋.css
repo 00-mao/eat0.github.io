@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none;
+    color: darkred;
+}
+a:hover{
+    text-decoration: underline;
+}
+input:hover{
+    color: peru;
+}
+
+#header{
+   width:1500px;
+    height: 60px;
+    /*background-color: red;*/
+}
+#head-right{
+    float: right;
+}
+#head-right img{
+    width: 50px;
+    height: 30px;
+    vertical-align: top;
+}
+#center{
+width: 700px;
+    height: 200px;
+    /*background-color: blue;*/
+    margin: 0 auto;
+    box-sizing:border-box;
+    padding: 10px 200px 200px 10px;
+}
+#center .search{
+   text-align: center;
+
+
+}
+#center .search-text{
+    width: 400px;
+    height: 40px;
+}
+#center .search-sumbit{
+    background-color: cornflowerblue;
+    height: 40px;
+}
+#center .logo {
+    text-align: center;
+}
+#center .logo img{
+    width: 300px;
+    height: 150px;
+}
+#list{
+    width: 1200px;
+    height: 900px;
+   /* background-color: purple;*/
+    margin: 10px 250px;
+    box-sizing:border-box;
+    padding: 10px 5px 5px 5px;
+}
+#list .list-left img{
+    width: 200px;
+    height: 150px;
+
+}
+#list .list-left{
+    float: left;
+}
+#list .list-left .list0{
+    border: 1px  solid #e0e0e0;
+}
+#list .list-left .c:hover{
+    color: brown;
+}
+#list .list-left .j:hover{
+    color: red;
+}
+#list .list-left .list1{
+    border: 2px  solid #e0e0e0;
+}
+#list .list-left .list2{
+    border: 2px  solid #e0e0e0;
+
+}
+#list .list-left .list3{
+    border: 1px  solid #e0e0e0;
+
+}
+#list .list-right img{
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+#list .list-right p{
+    float: right;
+}
+#list .list-right p:hover{
+    color: cadetblue;
+}
+
+#list .list-right{
+    width: 550px;
+    height: 600px;
+    float: right;
+    box-sizing:border-box;
+
+}
+ul li{
+    list-style: none;
+    color: peru;
+    width: 200px;
+    height:40px;
+    line-height: 40px;
+    float: left;
+
+
+}
+
